@@ -1,15 +1,12 @@
-package com.github.yqy7.linereaderloop;
+A tool to create interactive shell, using jline and picocli.
 
+```java
 import java.util.concurrent.Callable;
 
 import com.github.yqy7.linereaderloop.LineReaderLoop.CommandRegistry;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.ParentCommand;
 
-/**
- * @author qiyun.yqy
- * @date 2020/2/20
- */
 public class Example {
     public static void main(String[] args) {
         try {
@@ -41,3 +38,4 @@ public class Example {
         }
     }
 }
+```
